@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors')
 const morgan = require('morgan')
 
-require("dotenv").config();
+require('dotenv').config();
 require("./config/db.connection")
 
 const PORT = process.env.PORT || 4000
